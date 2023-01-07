@@ -3,9 +3,15 @@
 This directory contains scripts that are for setting up my development environment on a clean install of **Windows 11 22H2**.
 Most of the scripts _should_ work on Windows 10 but I haven't verified this yet. If you don't know what you're doing, use these scripts at your own risk.
 
+Prerequisites:
+1. The execution policy to run scripts is set.
+2. The user has the WinGet command-line package manager installed.
+
+You can find information about these prerequisites below
+
 ---
 
-### Setting Execution Policy
+### 1. Setting Execution Policy
 
 To be able to execute scripts, you will have to run PowerShell as an administrator. Furthermore, you 
 will need to change the execution policy in order to execute scripts. If you are not sure what this means, you should read
@@ -35,3 +41,8 @@ is why we made a note of what they were before changing them. Right?
 Set-ExecutionPolicy Default
 ```
 
+### 2. Installing / Updating WinGet
+
+To install or update WinGet, simply open the Microsoft store and search *app installer*, if it's already installed, update it. If it's not installed, install it.
+
+You can find a link for it [here](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1?hl=en-ca&gl=ca&rtc=1)
