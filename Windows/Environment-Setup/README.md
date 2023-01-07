@@ -26,7 +26,7 @@ Get-ExecutionPolicy -List
 ```
 Allow the current user to execute scripts:
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 You can set the execution policies to their defaults with the following command. However, the default policies aren't necessarily the same as what they were previously which
