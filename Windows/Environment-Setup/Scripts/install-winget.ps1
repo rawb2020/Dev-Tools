@@ -15,5 +15,5 @@ Invoke-WebRequest -Uri $WinGet -OutFile winget.msixbundle
 # Install the package.
 Add-AppPackage "winget.msixbundle"
 
-# Clean up the left over file.
+# Remove winget.msixbundle.
 Remove-Item winget.msixbundle
